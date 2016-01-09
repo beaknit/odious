@@ -1,0 +1,22 @@
+# Odious ToDo List
+
+- COLLECTION
+- [X] Crawl specified forum
+  - [X] Extract poast data
+      - [ ] Parameterize extraction for BS4 query descriptors
+    - [X] Perform initial transform into retrievable data structure
+- [X] Store poast data
+  - [X]  Write to csv locally
+
+
+- ANALYTICS
+- [ ] Separate analytics into different process
+- [ ] Retrieve poast data
+  - [ ] Read in from CSV
+- [ ] Remove noise from text
+    - [ ] Remove common digrams
+  - Add FreqDist analysis via NLTK
+
+- PLATFORM
+  - [ ] Spike Front-End dynamo storage and stream
+  - [ ] Spike Backend lambda off dynamo stream
